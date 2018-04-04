@@ -1,12 +1,12 @@
 def safe_pawns(pawns):
-    import string
-    cols = list(string.ascii_lowercase[:8])
-    rows = range(1, len(cols) + 1)
-    board = [(c, r) for r in rows for c in cols]
-    
-    print(board)
-    print(len(board))
-    return 0
+    ptups = [(ord(p[0]), int(p[1])) for p in pawns]
+    safe_count = 0
+    for p in ptups:
+        dnleft = (p[0] - 1, p[1] - 1)
+        dnright = (p[0] + 1, p[1] - 1)
+        if any([True if dlr in ptups else False for dlr in [dnleft, dnright]]):
+            safe_count += 1
+    return safe_count
 
 if __name__ == '__main__':
     #These "asserts" using only for self-checking and not necessary for auto-testing

@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7187ce9b-ed7d-4a3d-80c9-b74266654bb1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkio-sandbox.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/all_same.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common_words.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datediff.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/longest_substring.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monkeytype.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/safepawn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/safepawn.py" beforeDir="false" afterPath="$PROJECT_DIR$/safepawn.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,8 +47,8 @@
       <file leaf-file-name="safepawn.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/safepawn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            <state relative-caret-position="45">
+              <caret line="3" column="8" lean-forward="true" selection-start-line="1" selection-end-line="8" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -105,9 +96,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="31" />
-    <option name="width" value="800" />
-    <option name="height" value="560" />
+    <option name="x" value="804" />
+    <option name="y" value="64" />
+    <option name="width" value="796" />
+    <option name="height" value="562" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -129,7 +121,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -275,14 +267,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="31" width="1606" height="1123" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49924812" visible="true" weight="0.1495564" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3296371" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50375" weight="0.32862905" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3296371" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="7" sideWeight="0.49625" visible="true" weight="0.31149194" />
-      <window_info anchor="bottom" x="0" y="425" width="1600" height="334" id="Run" order="2" sideWeight="0.496875" weight="0.47580644" />
+      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49625" weight="0.31149194" />
+      <window_info anchor="bottom" x="0" y="425" width="1600" height="334" id="Run" order="2" sideWeight="0.496875" weight="0.5715726" />
       <window_info id="Structure" order="1" sideWeight="0.50075185" side_tool="true" weight="0.1495564" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3296371" />
       <window_info id="Favorites" order="2" sideWeight="0.50075185" side_tool="true" weight="0.1495564" />
@@ -300,6 +293,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/safepawn.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -307,7 +307,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -353,13 +353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datediff.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="56" lean-forward="true" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/all_same.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -374,10 +367,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/datediff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="56" lean-forward="true" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.5/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/safepawn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        <state relative-caret-position="45">
+          <caret line="3" column="8" lean-forward="true" selection-start-line="1" selection-end-line="8" selection-end-column="21" />
         </state>
       </provider>
     </entry>
